@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: "Google Sans", sans-serif;
+    max-width: 900px;
+} 
+
+header{
+    margin-left: 3rem;
+}
+
+.toggle{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title{
+    display: flex;
+    h1{
+        flex-grow: 4;
+        margin-top: 1rem;
+}
+}
+
+.description{
+    font-size: 14px;
+    color: rgba(46, 45, 45, 0.685);
+}
+
+.toggle_style{
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 0;
+}
+
+.spec{
+    margin-top: 1rem;
+}
