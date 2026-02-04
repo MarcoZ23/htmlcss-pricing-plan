@@ -40,4 +40,45 @@ header{
 
 .spec{
     margin-top: 1rem;
+    color: rgba(46, 45, 45, 0.685);
+}
+
+main{
+    margin-left: 5rem;  
+    display: flex;
+}
+
+h2{
+    margin-top: 5rem;
+}
+
+.col{
+    margin-bottom:  1.5rem;
+}
+
+.num{
+    font-size: 3rem;    
+}
+
+.space{
+    margin-left: 2rem;
+}
+
+.evi{
+    background-color: rgba(12, 93, 104, 0.295);
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
+
+.btn{
+    background-color: rgba(101, 0, 255, 1007);
+    color: white;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    width: 13rem;
+}
+
+.container{
+    min-width: 33%;
+   
 }
