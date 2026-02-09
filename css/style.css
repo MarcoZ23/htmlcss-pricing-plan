@@ -29,6 +29,11 @@ header{
 .description{
     font-size: 14px;
     color: rgba(46, 45, 45, 0.685);
+    
+}
+
+.description_b{
+    font-size: 14px;
 }
 
 .toggle_style{
@@ -46,14 +51,18 @@ header{
 main{
     margin-left: 5rem;  
     display: flex;
+    flex-wrap: wrap;
 }
 
 h2{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .col{
     margin-bottom:  1.5rem;
+    max-width: 100%;
+     padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .num{
@@ -70,15 +79,62 @@ h2{
     padding: 0.2rem;
 }
 
+.evi_b{
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    color: black;
+}
 .btn{
-    background-color: rgba(101, 0, 255, 1007);
+    background-color: rgba(101, 0, 255, 100);
     color: white;
     padding: 1.2rem;
-    border-radius: 1rem;
-    width: 13rem;
+    border-radius: 0.75rem;
+    width: 90%;
+    border-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container{
-    min-width: 33%;
-   
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.col_b{
+    max-width: 100%;
+    background-color: rgba(101, 0, 255, 100);
+    color: white;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    
+
+
+button.sec{
+    background-color: white
+    color: rgba(101, 0, 255, 100); 
+    padding: 1.2rem;
+    border-radius: 0.75rem;
+    width: 90%;
+    border-style: none;
+    margin-left: 0.7rem;
+     margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+li{
+    padding-bottom: 1rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
